@@ -1,0 +1,209 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    
+}
+
+.nav{
+    background-color: #1f2937;
+    height: 15vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+}
+
+.nav p{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+
+}
+.nav ul{
+    display: flex;
+    gap: 25px;
+    
+}
+.nav ul li a{
+    font-size: 18px;
+    color: #e5e7eb ;
+}
+
+.hero{
+    background-color: #1f2937;
+    height: 73vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+
+.hero img{
+    height: auto;
+    width: 450px;
+    
+
+
+}
+
+.hero .text{
+    width: 450px;
+}
+
+.hero .text .main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+.hero .text .sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero .text button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 0;
+    padding:8px 30px 8px 30px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px ;
+}
+
+.info{
+    background-color: white;
+    height: 82vh;
+
+}
+
+.info > p{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.info .cities{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.info .cities div{
+    width: 180px;
+}
+
+.cities img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+}
+
+.cities p{
+    margin-top: 10px ;
+    font-size: 18px;
+    color: #536174;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    height: 70.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 200px;
+    gap: 10px;
+}
+
+.quote :first-child{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:lighter;
+}
+
+.teller{
+    align-self: flex-end;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sign{
+    background-color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box div :first-child{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 7px;
+
+
+}
+
+.box div :last-child{
+    color: #e5e7eb;
+}
+
+.box button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 15vh;
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    font-size: 20px;
+}
